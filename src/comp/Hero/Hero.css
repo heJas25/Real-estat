@@ -1,0 +1,142 @@
+.hero-wrapper {
+
+    color: white;
+    position: relative;
+    background-color: black;
+    z-index: 1;
+}
+
+.hero-container {
+    
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+.hero-img {
+
+    width: 28rem;
+    height: 33rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255, 255, 0.12);
+
+}
+
+.hero-img>img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-left {
+    margin-left: 5rem;
+    gap: 3rem;
+   
+}
+
+.hero-title {
+    position: relative;
+    z-index: 1;
+    
+}
+
+.hero-title>h1 {
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+    color: white;
+}
+
+.orange-cyrcle {
+    width: 3rem;
+    height: 3rem;
+    background: var(--orange-gradient);
+    border-radius: 999px;
+    position: absolute;
+    right: 50%;
+    top: -3%;
+    z-index: -1;
+}
+
+.hero-des {
+    margin-top:2rem ;
+
+
+}
+
+.nav-bar {
+    position: absolute;
+    margin: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid rgba(120, 120, 120, 0.375);
+    padding: 0.5rem 1.9rem;
+    margin-left: -0.39rem;
+
+}
+
+.nav-bar>input {
+    border: none;
+    outline: none;
+}
+
+.stats {
+   
+    margin-top: 8.4rem;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+    
+
+
+}
+
+.stats>:nth-child(1) {
+    font-size: 1.5rem;
+    padding: 1rem
+    ;
+}
+.stats>:nth-child(2) {
+    font-size: 1.5rem;
+    padding: 1rem
+    ;
+}
+.stats>:nth-child(3) {
+    font-size: 1.5rem;
+    padding: 1rem
+    ;
+}
+.A {
+    color: orange;
+}
+.hero-container{
+    color: rgba(117, 72, 16, 0.053);
+}
+@media(max-width:640px){
+        .hero-container{
+            margin-top: 2rem;
+            
+        }
+        .hero-title>h1{
+           
+            line-height: 3rem; 
+        }
+        .hero-img{
+            width: 95%;
+            height: 25rem;
+        }
+        .stats{
+            justify-content: center;
+            gap: 1.5rem;
+        }
+        .h-right{
+            width: 100%; 
+        }
+        .stat >:nth-child(1){
+            font-size: 2rem;
+        }
+    .hero-wrapper{
+       
+        justify-content: center;
+    }
+}

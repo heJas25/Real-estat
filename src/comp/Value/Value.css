@@ -1,0 +1,55 @@
+.v-container .hero-img {
+    width: 28rem;
+    height: 33rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255, 255, 0.12);
+
+}
+
+.v-container>div {
+    flex: 1;
+
+}
+
+.v-right {
+    gap: O.5rem;
+}
+
+.accordion {
+    margin-top: 2rem;
+    border: none;
+}
+
+.accordionItem {
+    background-color:rgba(245, 245, 245, 0.685);
+    border: 0.8px solid rgba(128, 128, 128, 0.141);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding-bottom: 1rem;
+}
+.accordionItem.expanded{
+    box-shadow: var(--shadow);
+    border-radius: 5px;
+}
+.accordionButton{
+    background-color: white;
+    justify-content:space-between;
+    padding: 1rem;
+    width: 100%;
+    cursor: pointer;
+}
+.icon{
+    background-color: #eeeeff;
+    border-radius: 5px;
+    padding: 10px;
+}
+.icon svg{
+    fill: var(--blue);
+}
+@media (max-width:768px) {
+    .accordionButton .primeryText{
+        font-size: 0.8rem;
+    }
+}
