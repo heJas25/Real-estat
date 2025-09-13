@@ -1,7 +1,7 @@
-🏡 Real Estate Project (React Learning)
+# 🏡 Real Estate Project (React Learning)
 
 
-<img src="public/cap1"/>
+<img src="public/cap1.PNG"/>
 
 📖 About the Project
 
@@ -11,11 +11,15 @@ The project demonstrates how to build reusable components, handle state, and str
 ✨ Features
 
 🏠 Display a list of properties (title, price, location, image).
-
+ 
+<img src="public/cap2.PNG"/>
 
 📄 Property details page (basic info).
 
 🎨 Styled with Tailwind CSS for responsive design.
 
 ⚛️ Built entirely with React functional components and hooks.
+
+
+<img src="public/cap3.PNG"/>
 
